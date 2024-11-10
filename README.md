@@ -20,7 +20,7 @@ python decrypt.py
   - revise `behaviour_objects_path` in `behaviour_caption.py`
   - run cmd: `python behaviour_caption.py`
 
-(3) run rendering
+(3) run rendering\\
 I found that the exposure of the rendered image would become stronger as the number of renderings increased, so I only rendered 50 objects each time I ran the program, and then re-ran the program to render the next 50.
   - download `render_every_50.py` to `/home/.../Cap3D/captioning_pipeline/`
   - Replace the [`render_script.py`](https://github.com/crockwell/Cap3D/blob/afa247d407dadca3a69fdec345db27018a1fa9db/captioning_pipeline/render_script.py) in the [`Cap3D` project](https://github.com/crockwell/Cap3D) with the `render_script.py` of this project.
